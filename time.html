@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Time</title>
+</head>
+<body>
+	<h1 id="cnt"></h1>
+	<script type="text/javascript">
+		let dt=new Date();
+		document.writeln(dt.getDate());
+		document.writeln(dt.getMonth()+1);
+		document.writeln(dt.getFullYear()+"<br>");
+		document.writeln("**************"+"<br>");
+		
+		let tm=new Date();
+		let hr= tm.getHours();
+		let mn=tm.grtMinutes();
+		let sc=tm.getSeconds();
+		let ms=tm.get.Milliseconds();
+		document.writeln(hr+":"+min+":"+sc+":"+ms);
+
+
+		let count=1;
+		let cnt=document.getElementById("cnt");
+		function increCount(){
+			count++;
+			cnt.innerHTML=count;
+
+		}
+
+		document.writeln(count);
+		setInterval(increCount,500);
+
+		let count=
+
+
+	</script>
+
+</body>
+</html>
